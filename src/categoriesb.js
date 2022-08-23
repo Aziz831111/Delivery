@@ -42,10 +42,4 @@ export const categoriesb = [
     name: 'Burger',
     title: 'beef',
   },
-  {
-    image:
-      'https://img.favpng.com/22/11/22/cheeseburger-hamburger-veggie-burger-aloo-tikki-burger-king-png-favpng-sYL0Wg5HDYTvPicm3AEqZP513.jpg',
-    name: 'Burger',
-    title: 'beef',
-  },
 ];

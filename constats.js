@@ -51,6 +51,6 @@ export const SIZES = {
   body5: 12,
 };
 
-const appTheme = { COLORS, SIZES, FONTS };
+const appTheme = { COLORS, SIZES };
 
 export default appTheme;
