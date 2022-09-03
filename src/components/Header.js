@@ -1,4 +1,4 @@
-import { Image, TouchableHighlight, View, Linking } from 'react-native';
+import { Image, TouchableHighlight, View, Linking, Text } from 'react-native';
 import React from 'react';
 
 export default function Header() {
@@ -11,17 +11,19 @@ export default function Header() {
         justifyContent: 'space-between',
       }}>
       <View>
-        <TouchableHighlight onPress={() => Linking.openURL('https//google.com')}>
+        <TouchableHighlight onPress={() => Linking.openURL('https://google.com')}>
           <Image
-            source={{
-              uri: 'https://reactjs.org/logo-og.png',
-            }}
+            source={require('./img/logo.png')}
             style={{
               width: 50,
               height: 50,
             }}
           />
         </TouchableHighlight>
+      </View>
+
+      <View>
+        <Text style={{ fontSize: 20, fontWeight: 'bold' }}>FOOD WORLD</Text>
       </View>
 
       <View>

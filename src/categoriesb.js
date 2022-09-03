@@ -1,45 +1,56 @@
 export const categoriesb = [
   {
-    image: 'https://www.pngmart.com/files/1/Burger-Image-PNG.png',
-    name: 'Burger',
-    title: 'beef',
+    image: 'chicken',
+    name: 'Chicken Light',
+    title: 'chicken',
+    price: '€ 5',
   },
   {
-    image:
-      'https://www.nicepng.com/png/detail/415-4155371_free-png-burger-free-desktop-png-images-transparent.png',
-    name: 'Burger',
+    image: 'beef',
+    name: 'Beef Burger',
     title: 'beef',
+    price: '€ 8',
   },
   {
-    image: 'https://flyclipart.com/thumbs/grillburger-1366549.png',
-    name: 'Burger',
+    image: 'cheeseburger',
+    name: 'Cheese Burger',
     title: 'beef',
+    price: '€ 4',
   },
   {
-    image:
-      'https://www.pngitem.com/pimgs/m/175-1754748_cheese-burger-png-cheeseburger-transparent-png.png',
+    image: 'bacon',
     name: 'Burger',
     title: 'beef',
+    price: '100',
   },
   {
-    image: 'https://www.seekpng.com/png/detail/244-2445917_burger-burger-png-hd.png',
+    image: 'black',
     name: 'Burger',
     title: 'beef',
+    price: '100',
   },
   {
-    image:
-      'https://www.pngkey.com/png/detail/44-449313_traditional-games-hardees-burger-png-tin-sign-delicious.png',
+    image: 'pink',
     name: 'Burger',
     title: 'beef',
+    price: '100',
   },
   {
-    image: 'https://www.pngmart.com/files/16/Bacon-Cheese-Burger-PNG-File.png',
+    image: 'duble',
     name: 'Burger',
     title: 'beef',
+    price: '100',
   },
   {
-    image: 'https://img.cppng.com/download/2020-06/12-hamburger-burger-png-image.png',
+    image: 'fish',
     name: 'Burger',
     title: 'beef',
+    price: '100',
+  },
+  {
+    image: 'spice',
+    name: 'Burger',
+    title: 'beef',
+    price: '100',
   },
 ];

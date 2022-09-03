@@ -1,14 +1,18 @@
-import { View } from 'react-native';
-import CategoriesBurger from './src/components/CategoriesBurger';
-import Header from './src/components/Header';
-import Popular from './src/components/Popular';
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import FoodWorld from './src/components/Home';
+import Burgers from './src/components/Burgers';
+// import { NativeRouter, Switch, Route, Routes } from 'react-router-native';
+
+const OldStack = createNativeStackNavigator();
 
 export default function App() {
   return (
-    <View style={{ padding: 20 }}>
-      <Header />
-      <CategoriesBurger />
-      <Popular />
-    </View>
+    <NavigationContainer>
+      <OldStack.Navigator>
+        <OldStack.Screen name="FoodWorld" component={FoodWorld} />
+        <OldStack.Screen name="Burgers" component={Burgers} />
+      </OldStack.Navigator>
+    </NavigationContainer>
   );
 }
